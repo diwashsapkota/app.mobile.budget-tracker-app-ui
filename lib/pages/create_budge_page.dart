@@ -11,8 +11,8 @@ class CreatBudgetPage extends StatefulWidget {
 class _CreatBudgetPageState extends State<CreatBudgetPage> {
   int activeCategory = 0;
   TextEditingController _budgetName =
-      TextEditingController(text: "Grocery Budget");
-  TextEditingController _budgetPrice = TextEditingController(text: "\$1500.00");
+      TextEditingController(text: "Farm Budget");
+  TextEditingController _budgetPrice = TextEditingController(text: "Rs.150000.00");
   @override
   Widget build(BuildContext context) {
     return Scaffold(
